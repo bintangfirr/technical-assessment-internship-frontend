@@ -64,7 +64,32 @@
             </div>
         </div>
 
-        <!-- TODO: Implement Task 3 here -->
+        <!-- TASK 3: CONTACT FORM -->
+        <div class="col-md-6 mx-auto mt-5">
+            <h3 class="text-center mb-3">Contact Us</h3>
+            
+            <form id="contactForm">
+                <div class="form-floating mb-3">
+                    <input type="text" id="name" class="form-control" placeholder="Name">
+                    <label>Name</label>
+                </div>
+                
+                <div class="form-floating mb-3">
+                    <input type="email" id="email" class="form-control" placeholder="Email">
+                    <label>Email</label>
+                </div>
+                
+                <div class="form-floating mb-3">
+                    <textarea id="message" class="form-control" style="height: 120px;" placeholder="Message"></textarea>
+                    <label>Message</label>
+                </div>
+                
+                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#resultModal">
+                    Submit
+                </button>
+            </form>
+        </div>
+
     </div>
 </body>
 
